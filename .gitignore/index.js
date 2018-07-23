@@ -9,7 +9,7 @@ bot.on('ready', () => {
     console.log("Bot Prêt !");
 });
 
-bot.login('NDU4NTU0ODA0ODMxMjU2NTc2.DgqZQA.PcSjGpFksVpdPyhsvkRjly2qDa0');
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
     if (message.content === prefix + "ping"){
