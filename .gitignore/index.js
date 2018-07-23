@@ -39,7 +39,7 @@ bot.on('message', message => {
     });
 
     bot.on('guildMemberAdd', member => {
-        member.guild.channels.get("456903847521288213").send(":tada:Bonjour <@!" + member.id + "> et bienvenue sur **Aliria**, ammuse toi bien !:wink: ");
+        member.guild.channels.get("471041340587900939").send(":tada:Bonjour <@!" + member.id + "> et bienvenue sur **Aliria**, ammuse toi bien !:wink: ");
         console.log("Bienvenue " + member.user.username)
     });
        
