@@ -47,3 +47,10 @@ bot.on('message', message => {
         var role = member.guild.roles.find('name', 'Membres');
         member.addRole(role)
     })
+    if (message.content === prefix + calcul) {
+        const nombre = Number(message.channel.send("entrez un nombre" ));
+        if (Number === 15) {
+            message.channel.send ("ton nombre est 15")
+        }
+        else message.channel.send ("ton nombre n'est pas 15")
+    };
